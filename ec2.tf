@@ -15,5 +15,5 @@ output "private_ip" {
 }
 
 output "id" {
-    value = module.catalogue.id
+    value = module.catalogue.instance_id
 }
