@@ -1,9 +1,9 @@
 variable "ami_id" {
-  default = "ami-09c813fb71547fc4f"
+  default = "ami-0220d79f3f480ecf5"
 }
 
 variable "sg_ids" {
-  default = ["sg-06b6b91b959b0f8d8"]
+  default = ["sg-05b8cabb90e7d612b"]
 }
 
 variable "instance_type"{

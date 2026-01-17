@@ -7,7 +7,7 @@ terraform {
   }
 
   backend "s3" {
-    bucket = "remote-state-wasdaws"
+    bucket = "remotestate-wasdaws"
     key    = "ec2-module-demo"
     region = "us-east-1"
     use_lockfile = true
